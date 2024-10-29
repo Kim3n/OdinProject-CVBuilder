@@ -1,0 +1,110 @@
+/* BUTTON CSS */
+
+.collapsible-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  border: 1px #1a1a1a solid;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+.collapsible-button-title-container {
+  display: flex;
+  align-content: center;
+  gap: 10px;
+}
+.collapsible-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+.collapsible-button-content {
+  width: 80%;
+}
+
+.card {
+  background-color: #1a1a1a48;
+  padding: 5px;
+  width: 100%;
+}
+
+.collapsible-button h3 {
+  margin: 0;
+}
+
+.button-children {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+/* FORM CSS */
+
+.form-heading {
+  margin: 0;
+  border-bottom: 1px white solid;
+}
+.form-field {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-field input {
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-info-container {
+  align-items: center;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+/* FORM ERROR MESSAGE CSS */
+
+.error {
+  color: hsl(357.59deg 94.57% 63.92%);
+}
+
+
+/* BUTTON CSS */
+
+.border-bottom {
+  border-bottom: 1px white solid;
+}
+
+
+/* FORM REMOVE BUTTON CSS */
+
+.remove-button {
+  background-color: hsl(357.59deg 94.57% 63.92%);
+  transition: border-color 0.25s;
+}
+
+.remove-button:hover {
+  border-color: red;
+}
+
