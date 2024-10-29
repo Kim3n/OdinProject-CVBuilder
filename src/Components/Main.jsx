@@ -4,7 +4,7 @@ import "./styles/Components.css";
 import { data } from "./data";
 import PersonalInfo from "./PersonalInfo";
 import EducationInfo from "./EducationInfo";
-import WorkInfo from "./workInfo";
+import WorkInfo from "./WorkInfo.jsx";
 import CVDisplay from "./CVDisplay";
 import { FaUserGraduate, FaSuitcase, FaPrint } from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
